@@ -1,0 +1,12 @@
+{
+  "name": "lyric-sheet-kit",
+  "version": "0.1.0",
+  "description": "Write lyrics to a spec, then feed them to AI music generators: parse structured lyric sheets (EN tags or Chinese section headers), validate line counts / per-line character counts / rhyme groups against a template, and convert to ACE-Step / Suno tag formats.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "lyric-sheet": "bin/lyric-sheet.js" },
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=18" },
+  "keywords": ["lyrics", "ace-step", "suno", "ai-music", "songwriting", "chinese-lyrics", "template", "song-generation"],
+  "license": "MIT"
+}
