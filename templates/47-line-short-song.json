@@ -1,0 +1,13 @@
+{
+  "name": "47-line short song (短视频歌曲 47 行模板)",
+  "description": "Chorus-led short-song structure popular in Chinese short-video music: chorus x3, verse x2, bridge, one-line outro. Rhyme groups use one letter per line; lines sharing a letter should end on the same rhyme character. Add charCounts per section when your format fixes per-line lengths.",
+  "sections": [
+    { "type": "chorus", "lines": 8, "rhymeGroups": "AAAABBCC" },
+    { "type": "verse",  "lines": 8, "rhymeGroups": "AAAABBCC" },
+    { "type": "chorus", "lines": 8, "rhymeGroups": "AAAABBCC" },
+    { "type": "verse",  "lines": 8, "rhymeGroups": "AAAABBCC" },
+    { "type": "bridge", "lines": 6, "rhymeGroups": "AAABBB" },
+    { "type": "chorus", "lines": 8, "rhymeGroups": "AAAABBCC" },
+    { "type": "outro",  "lines": 1, "rhymeGroups": "A" }
+  ]
+}
